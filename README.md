@@ -34,6 +34,6 @@ cd juros-compostos
 npm install
 npm test
 
-**use a função no seu código:**
+**use a função no seu código::**
 const { calcularJurosCompostos } = require('./src/calculo.js');
 console.log(calcularJurosCompostos(1000, 0.05, 10)); // 1628.89

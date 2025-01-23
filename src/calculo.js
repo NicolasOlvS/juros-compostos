@@ -19,5 +19,5 @@ function calcularJurosCompostos(capitalInicial, taxaJuros, tempo, unidadeTempo =
     const montante = capitalInicial * Math.pow(1 + taxaJuros, tempo);
     return montante;
 }
-
+//a
 module.exports = calcularJurosCompostos;

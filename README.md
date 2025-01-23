@@ -12,6 +12,28 @@ Este projeto é uma calculadora de juros compostos que permite calcular o montan
 ## Exemplos de Entrada e Saída
 
 ### Exemplo 1: Cálculo em anos
+
 **Entrada:**
-```javascript
 calcularJurosCompostos(1000, 0.05, 10);
+
+**Saída esperada:**
+1628.89
+
+### Exemplo 2: Cálculo em meses
+
+**Entrada:**
+calcularJurosCompostos(1000, 0.05, 120, 'meses');
+
+**Saída esperada:**
+1647.01
+
+## Como rodar o código localmente 
+
+git clone https://github.com/seu-usuario/juros-compostos.git
+cd juros-compostos
+npm install
+npm test
+
+**use a função no seu código:**
+const { calcularJurosCompostos } = require('./src/calculo.js');
+console.log(calcularJurosCompostos(1000, 0.05, 10)); // 1628.89

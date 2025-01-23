@@ -27,7 +27,7 @@ calcularJurosCompostos(1000, 0.05, 120, 'meses');
 **Saída esperada:**
 1647.01
 
-## Como rodar o código localmente 
+## Como rodar o código localment
 
 git clone https://github.com/seu-usuario/juros-compostos.git
 cd juros-compostos
